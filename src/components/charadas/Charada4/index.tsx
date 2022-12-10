@@ -3,7 +3,7 @@ import { toast } from 'react-toastify'
 
 import { Radio } from '../../radio/index'
 
-import { CharadaProps } from './interfaces'
+import { CharadaProps } from '../interfaces'
 
 import Image from 'next/image'
 import logoImg from '../../../../public/assets/logo.svg'

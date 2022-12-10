@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import relogioImg from '../../../public/assets/relogio.png'
-
 import { 
   RadioContainer, 
   Input, 
