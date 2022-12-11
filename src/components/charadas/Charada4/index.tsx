@@ -46,13 +46,13 @@ export function Charada4({ nextStep }: CharadaProps) {
       </div>
 
       <Content>
-        <RadioGroup onChange={e => setAnswer(Number(e.target.value))}>
+        <RadioGroup onChange={(e: any) => setAnswer(Number(e.target.value))}>
           {repostas.map(resposta => (
             <Radio
-            key={resposta.id}
-            name={name}
-            resposta={resposta.label}
-            value={resposta.id}
+              key={resposta.id}
+              name={name}
+              resposta={resposta.label}
+              value={resposta.id}
             />
             ))}
         </RadioGroup>
